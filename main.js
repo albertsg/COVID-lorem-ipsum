@@ -37,8 +37,6 @@ $(document).ready(function(){
             var limit = info.paragraphs.length - 1;
             var number = 0 + Math.floor(Math.random() * limit);
             ret = info.paragraphs[number];
-            console.log("Number => "+number);
-            console.log("JSON => "+ info.paragraphs[number]);
         }
         return ret;
     }
