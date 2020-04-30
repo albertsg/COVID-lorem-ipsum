@@ -1,0 +1,84 @@
+@blue:  #05386B;
+@green: #379683;
+@green-2: #5CDB95;
+@green-3: #8EE4AF;
+@emerald: #EDF5E1;
+@white: #ffffff;
+
+@ffamily: 'IBM Plex Sans', sans-serif;
+
+
+@desktop:   ~"only screen and (min-width: 960px)";
+@tablet:    ~"only screen and (min-width: 720px) and (max-width: 959px)";
+@mobile:    ~"only screen and (max-width: 719px)";
+
+*{
+    font-family: @ffamily;
+}
+body{
+    background-color: @green-2;
+}
+.container{
+    margin-bottom: 25px;
+}
+.jumbotron{
+    margin-top: 50px;
+    background-color: @blue;
+    border-radius: 10px;
+    h1, p{
+        color: @white;
+    }
+    h1{
+        font-weight: 900;
+        font-size: 70px;
+    }
+    p{
+        font-weight: 400;
+    }
+}
+.subhead{
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.well{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: @emerald;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    text-align: justify;
+}
+.button{
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    vertical-align: middle;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    -webkit-box-shadow: 0 2px 8px 0 rgba(41,41,51,0.25);
+    -moz-box-shadow: 0 2px 8px 0 rgba(41,41,51,0.25);
+    box-shadow: 0 2px 8px 0 rgba(41,41,51,0.25);
+    color: @white;
+    background-color: @green;
+    border-color: @green;
+}
+.disclaimer{
+    font-style: italic;
+    font-weight: 100;
+    font-size: 12px;
+}
+#numPar{
+    text-align: center;
+}
+
+@media @mobile{
+    .subhead{
+        max-width: 100%;
+    }
+
+}

@@ -1,0 +1,69 @@
+* {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+  background-color: #5cdb95;
+}
+.container {
+  margin-bottom: 25px;
+}
+.jumbotron {
+  margin-top: 50px;
+  background-color: #05386b;
+  border-radius: 10px;
+}
+.jumbotron h1,
+.jumbotron p {
+  color: #ffffff;
+}
+.jumbotron h1 {
+  font-weight: 900;
+  font-size: 70px;
+}
+.jumbotron p {
+  font-weight: 400;
+}
+.subhead {
+  max-width: 75%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  background-color: #edf5e1;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+  text-align: justify;
+}
+.button {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  vertical-align: middle;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(41, 41, 51, 0.25);
+  -moz-box-shadow: 0 2px 8px 0 rgba(41, 41, 51, 0.25);
+  box-shadow: 0 2px 8px 0 rgba(41, 41, 51, 0.25);
+  color: #ffffff;
+  background-color: #379683;
+  border-color: #379683;
+}
+.disclaimer {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 12px;
+}
+#numPar {
+  text-align: center;
+}
+@media only screen and (max-width: 719px) {
+  .subhead {
+    max-width: 100%;
+  }
+}

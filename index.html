@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Lorem ipsum</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="c/main.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <!--JS-->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <!--Hero-->
+    <div class="container text-center">
+        <div class="jumbotron">
+            <h1>Covid-19 text generator</h1>
+            <p class="subhead">During pandemic times would be useful to inform people about the dangers of covid-19 and how to protect yourself and your family.
+            Say goodbye to Lorem Ipsum and start using Covid19 text* generator in your projects.</p>
+          </div>
+    </div>
+    <!--Generated text-->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="well" id="panel-gen">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Info-->
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <input oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" type="number" id="numPar">
+                <button type="button" class="button" id="btnGen">Generate</button>
+            </div>
+        </div>
+    </div>
+    <!-- Disclaimer -->
+    <div class="container text-center disclaimer">
+        <row>
+            <div class="col-sm-12">
+                <p>*Source: <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">WHO.int</a></p>
+            </div>
+        </row>
+    </div>
+</body>
+</html>
